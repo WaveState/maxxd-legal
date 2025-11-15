@@ -1,0 +1,16 @@
+title: Maxxd Legal
+description: "Terms of Service and Privacy Policy for the Maxxd fitness and nutrition app."
+theme: minima
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-seo-tag
+
+# Optional: navigation links (if you add an index page)
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
