@@ -1,5 +1,3 @@
-# Privacy
-
 **Effective Date:** November 9, 2025  
 **Company:** Wave State, LLC ("Wave State", "we", "us", or "our")  
 **Address:** 2033 San Elijo Ave #1011, Cardiff, CA 92007, USA  
