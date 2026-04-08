@@ -1,4 +1,4 @@
-**Effective Date:** February 5, 2026  
+**Effective Date:** April 7, 2026  
 **Company:** Wave State, LLC ("Wave State", "we", "us", or "our")  
 **Address:** 2033 San Elijo Ave #1011, Cardiff, CA 92007, USA  
 **Contact:** support@wavestate.co
@@ -30,8 +30,8 @@ We collect the following categories of information:
 ### 2.1 Account and Profile Information
 
 - Name, email address, and password
-- Mobile phone number (required for account creation and identity verification)
-- Optional profile details such as gender, age range, height, weight, fitness goals, and preferences
+- Mobile phone number (required for account creation and identity verification; also stored as a searchable property in our analytics platform for internal account lookup and support purposes)
+- Optional profile details such as gender, date of birth, height, weight, fitness goals, and preferences
 
 ### 2.2 Health, Fitness, and Usage Data
 
@@ -122,6 +122,7 @@ If you contact us, we collect:
 - Process images and data to estimate calorie and nutrient values
 - Improve recognition accuracy, algorithms, and overall app performance
 - Develop new features and functionalities
+- Analyze usage patterns, feature engagement, and onboarding effectiveness using third-party analytics platforms. Your activity in the App is associated with a pseudonymous account identifier. Your phone number is stored as a property on your analytics profile for internal account lookup and support purposes. Certain onboarding responses (such as fitness goals, experience level, and dietary preferences) and usage data (such as meal logging activity and workout engagement) are also sent to our analytics provider to help us improve the App.
 
 ### 3.3 To Personalize Your Experience
 
@@ -168,13 +169,12 @@ Carriers are not liable for delayed or undelivered messages. Compatible carriers
 
 If you are located in the EEA or UK, we process your personal data under one or more of the following legal bases:
 
-- **Contract:** To provide and maintain the Service
-- **Consent:** For processing health-related data, image scanning, and certain communications
-- **Legitimate Interests:** To improve and secure the App, provided these interests are not overridden by your rights
-- **Legal Obligation:** To comply with applicable laws
+- Contract: To provide and maintain the Service, including creating your account, delivering workouts and nutrition plans, and processing your data to operate core features.
+- Consent: For processing health-related data (including nutrition logs and fitness metrics shared with analytics providers), image scanning, HealthKit integration, and certain communications. You may withdraw consent at any time, though this may limit functionality.
+- Legitimate Interests: To improve and secure the App, analyze usage patterns, and optimize the user experience — provided these interests are not overridden by your rights. This includes using a pseudonymous account identifier for product analytics and storing your phone number as a searchable property for internal support. We have conducted a balancing assessment for this use.
+- Legal Obligation: To comply with applicable laws.
 
-**GDPR Controller Statement**
-For users in the EEA and UK, **Wave State, LLC** is the data controller for your personal data.
+GDPR Controller Statement. For users in the EEA and UK, Wave State, LLC is the data controller for your personal data. PostHog, Inc. acts as a data processor on our behalf for analytics data, under a Data Processing Agreement that includes Standard Contractual Clauses for international transfers.
 
 ---
 
@@ -186,15 +186,16 @@ We may share information as follows:
 
 ### 5.1 Service Providers
 
-We use third-party vendors for:
+We use third-party vendors to help operate and improve the App, including:
 
-- Cloud hosting and storage
-- Analytics and crash reporting
+- Cloud hosting and storage for secure data infrastructure
+- Analytics — We use PostHog, a product analytics platform, to understand how users interact with the App. Your activity is tracked using a pseudonymous account identifier. PostHog also receives your phone number (as a searchable property for internal lookup), onboarding responses (such as fitness goals, experience level, dietary style, and date of birth), and usage data (such as meal logging details, workout engagement, and feature interactions). PostHog processes this data on our behalf under a Data Processing Agreement. For more information, see PostHog's privacy policy at https://posthog.com/privacy.
+- Crash reporting and diagnostics
 - Payment processing (via app stores)
 - Email delivery and communication
 - SMS delivery (for verification codes and promotional messages)
 
-These providers must protect your information and may only use it as instructed.
+These providers are contractually required to protect your information and may only use it as we instruct.
 
 ### 5.2 AI and Model Infrastructure Partners
 
@@ -230,7 +231,9 @@ We retain your information for as long as reasonably necessary to:
 - Resolve disputes
 - Enforce our agreements
 
-Some data may remain in backups for a limited time after deletion.
+Analytics data. Usage events and associated identifiers stored in our analytics platform (PostHog) are retained for up to 24 months from the date of collection. After this period, events are deleted or anonymized. If you request account deletion, we will also delete your identifiable analytics data from PostHog within 30 days of processing your request.
+
+Some data may remain in encrypted backups for a limited time after deletion.
 
 ---
 
@@ -244,7 +247,7 @@ Some data may remain in backups for a limited time after deletion.
 ### 7.2 Account and Profile Information
 
 - You may update or delete certain account information within the App.
-- For full account deletion requests, contact support@wavestate.co.
+- For full account deletion requests, contact support@wavestate.co. Upon processing your request, we will delete your account data from our servers and remove your identifiable data from our analytics platform (PostHog), including your phone number and any associated event history. Some data may persist in encrypted backups for a limited period.
 
 ### 7.3 Marketing Communications
 
