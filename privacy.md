@@ -1,4 +1,4 @@
-**Effective Date:** April 7, 2026  
+**Effective Date:** November 10, 2026  
 **Company:** Wave State, LLC ("Wave State", "we", "us", or "our")  
 **Address:** 2033 San Elijo Ave #1011, Cardiff, CA 92007, USA  
 **Contact:** support@wavestate.co
@@ -65,18 +65,29 @@ You can revoke camera or photo access at any time through your device settings.
 With your explicit permission, Maxxd may read and/or write certain data through **Apple Health (HealthKit)**, such as:
 
 - Steps, distance, and active minutes
-- Heart rate data
+- Heart rate data, including heart rate recorded during your Maxxd workouts
+- Heart rate variability (HRV) and resting heart rate
 - Workouts and exercise sessions
 - Weight and body composition metrics
 - Sleep duration and related data
 
+**Workout heart rate.** If a heart rate device such as Apple Watch or compatible headphones records your heart rate during a Maxxd workout, Maxxd sends our servers a summary of that workout's heart rate. The summary contains your average and maximum heart rate, an estimate of how hard you worked relative to your heart rate range, how much of the workout had heart rate readings, and the kind of device that recorded it. We use it to estimate how intense each workout was.
+
+**Daily recovery.** Maxxd reads your HRV, resting heart rate, and sleep from Apple Health and sends our servers one summary per day. Each summary contains your average HRV, how many HRV readings there were and when the latest one was taken, your resting heart rate, your total minutes asleep, and the kind of device that recorded them. When you first connect Apple Health, we also receive summaries for up to the previous 31 days so we can learn your normal range. We compare each day with your own recent average. If your recovery looks low on a day you have a workout scheduled, Maxxd may make that day's workout lighter, for example by reducing the number of sets, and will tell you in the App.
+
+We store only the daily and per-workout summaries described above, not the individual heart rate, HRV, or sleep readings.
+
 This data is used only to:
 
-- Personalize workouts, nutrition insights, and recovery recommendations
+- Personalize workouts, nutrition insights, and recovery recommendations, including lightening a workout on a low-recovery day
 - Display analytics, charts, and trends
 - Award points, streaks, and achievements
 
 We do **not** use HealthKit data for advertising, and we do **not** sell HealthKit data.
+
+We do **not** send your heart rate, HRV, resting heart rate, or sleep values to our analytics provider. It receives only general categories, such as which Apple Health data types you allowed, whether a workout's intensity was low, moderate, or high, and whether a workout was lightened (or why it was not).
+
+If you do not allow these data types, the App still works, and your workouts are planned without recovery adjustments.
 
 You can enable or revoke permissions at any time via your device settings.
 
@@ -189,7 +200,7 @@ We may share information as follows:
 We use third-party vendors to help operate and improve the App, including:
 
 - Cloud hosting and storage for secure data infrastructure
-- Analytics — We use PostHog, a product analytics platform, to understand how users interact with the App. Your activity is tracked using a pseudonymous account identifier. PostHog also receives your phone number (as a searchable property for internal lookup), onboarding responses (such as fitness goals, experience level, dietary style, and date of birth), and usage data (such as meal logging details, workout engagement, and feature interactions). PostHog processes this data on our behalf under a Data Processing Agreement. For more information, see PostHog's privacy policy at https://posthog.com/privacy.
+- Analytics — We use PostHog, a product analytics platform, to understand how users interact with the App. Your activity is tracked using a pseudonymous account identifier. PostHog also receives your phone number (as a searchable property for internal lookup), onboarding responses (such as fitness goals, experience level, dietary style, and date of birth), and usage data (such as meal logging details, workout engagement, and feature interactions). If you connect Apple Health, PostHog also receives the general categories described in Section 2.4, but never your heart rate, HRV, resting heart rate, or sleep values. PostHog processes this data on our behalf under a Data Processing Agreement. For more information, see PostHog's privacy policy at https://posthog.com/privacy.
 - Crash reporting and diagnostics
 - Payment processing (via app stores)
 - Email delivery and communication
@@ -232,6 +243,8 @@ We retain your information for as long as reasonably necessary to:
 - Enforce our agreements
 
 Analytics data. Usage events and associated identifiers stored in our analytics platform (PostHog) are retained for up to 24 months from the date of collection. After this period, events are deleted or anonymized. If you request account deletion, we will also delete your identifiable analytics data from PostHog within 30 days of processing your request.
+
+Health recovery data. The daily recovery summaries and workout heart rate summaries described in Section 2.4 are kept while your account is active and are deleted when your account is deleted.
 
 Some data may remain in encrypted backups for a limited time after deletion.
 
@@ -323,6 +336,7 @@ Maxxd uses algorithms and AI to:
 - Provide workout and nutrition recommendations
 - Estimate calories and macronutrients
 - Adjust difficulty and schedule insights
+- Make a scheduled workout lighter, for example with fewer sets, on a day your Apple Health recovery data (HRV, resting heart rate, and sleep) is low compared with your own recent average. These adjustments only reduce a workout; they never add to it.
 
 These systems are intended to **assist**, not replace, personal judgment.
 
