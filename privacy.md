@@ -1,4 +1,4 @@
-**Effective Date:** November 10, 2026  
+**Effective Date:** November 13, 2026  
 **Company:** Wave State, LLC ("Wave State", "we", "us", or "our")  
 **Address:** 2033 San Elijo Ave #1011, Cardiff, CA 92007, USA  
 **Contact:** support@wavestate.co
@@ -67,7 +67,9 @@ With your explicit permission, Maxxd may read and/or write certain data through 
 - Steps, distance, and active minutes
 - Heart rate data, including heart rate recorded during your Maxxd workouts
 - Heart rate variability (HRV) and resting heart rate
+- Cardio fitness (VO2 max)
 - Workouts and exercise sessions
+- Workout routes, such as the path of an outdoor run
 - Weight and body composition metrics
 - Sleep duration and related data
 
@@ -75,12 +77,18 @@ With your explicit permission, Maxxd may read and/or write certain data through 
 
 **Daily recovery.** Maxxd reads your HRV, resting heart rate, and sleep from Apple Health and sends our servers one summary per day. Each summary contains your average HRV, how many HRV readings there were and when the latest one was taken, your resting heart rate, your total minutes asleep, and the kind of device that recorded them. When you first connect Apple Health, we also receive summaries for up to the previous 31 days so we can learn your normal range. We compare each day with your own recent average. If your recovery looks low on a day you have a workout scheduled, Maxxd may make that day's workout lighter, for example by reducing the number of sets, and will tell you in the App.
 
-We store only the daily and per-workout summaries described above, not the individual heart rate, HRV, or sleep readings.
+**Workouts recorded outside Maxxd.** When Apple Health has a workout that was recorded outside Maxxd, for example by Apple Watch or another fitness app, Maxxd sends our servers a summary of that workout. The summary contains the type of workout, when it started and ended, how long it lasted, the active energy you burned, and which app recorded it. Where Apple Health has them, it also contains your average and maximum heart rate, how long you spent in each heart rate zone, the distance, and the elevation gain. It does not contain your individual heart rate readings. We use it to show the details of your activity and to personalize your workout plan.
+
+**Workout routes.** If a workout in Apple Health has a route, Maxxd reads the route and draws it on a map on your device. We do not send your location or any point of a route to our servers.
+
+**Cardio fitness.** Maxxd reads your cardio fitness (VO2 max) readings from Apple Health and sends each reading to our servers with the time it was measured and the app that recorded it. We use these readings to show the details of your activity and to personalize your workout plan.
+
+Apart from cardio fitness, we store only the daily and per-workout summaries described above, not the individual heart rate, HRV, or sleep readings. For cardio fitness, we store each individual reading.
 
 This data is used only to:
 
 - Personalize workouts, nutrition insights, and recovery recommendations, including lightening a workout on a low-recovery day
-- Display analytics, charts, and trends
+- Display your activity details, workout route maps, analytics, charts, and trends
 - Award points, streaks, and achievements
 
 We do **not** use HealthKit data for advertising, and we do **not** sell HealthKit data.
@@ -244,7 +252,7 @@ We retain your information for as long as reasonably necessary to:
 
 Analytics data. Usage events and associated identifiers stored in our analytics platform (PostHog) are retained for up to 24 months from the date of collection. After this period, events are deleted or anonymized. If you request account deletion, we will also delete your identifiable analytics data from PostHog within 30 days of processing your request.
 
-Health recovery data. The daily recovery summaries and workout heart rate summaries described in Section 2.4 are kept while your account is active and are deleted when your account is deleted.
+Apple Health data. The daily recovery summaries, workout heart rate summaries, summaries of workouts recorded outside Maxxd, and cardio fitness readings described in Section 2.4 are kept while your account is active and are deleted when your account is deleted.
 
 Some data may remain in encrypted backups for a limited time after deletion.
 
