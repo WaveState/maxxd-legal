@@ -1,9 +1,9 @@
-**Effective Date:** February 5, 2026  
+**Effective Date:** November 24, 2026  
 **Company:** Wave State, LLC ("Wave State", "we", "us", or "our")  
 **Address:** 2033 San Elijo Ave #1011, Cardiff, CA 92007, USA  
 **Contact:** support@wavestate.co
 
-**Important: These Terms include a binding arbitration agreement and class action waiver in Section 18, to the fullest extent permitted by law. If you do not agree with these Terms, do not use Maxxd.**
+**Important: These Terms include a binding arbitration agreement and class action waiver in Section 21, to the fullest extent permitted by law. If you do not agree with these Terms, do not use Maxxd.**
 
 ---
 
